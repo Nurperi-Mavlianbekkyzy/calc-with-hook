@@ -6,7 +6,7 @@ export const Calcul = () => {
 	const [result, setResult] = useState('')
 
 	let inputHandler = (e) => {
-		if (e.target.name == 'inputValue1') {
+		if (e.target.name === 'inputValue1') {
 			setinputValue1(e.target.value)
 		} else {
 			setinputValue2(e.target.value)
